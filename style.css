@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f1f1f1;
+    font-family: 'poppins';
+}
+.rectangle1{
+   
+    width:50vw;
+    max-width: 600px;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:30px;
+    
+    gap:25px;
+    background-color: rgba(72, 163, 0, 0.07);
+
+}
+.rectangle2{
+    width: 90%;
+    height:75vh;
+    
+    background-color: rgba(251, 251, 251, 1);
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+.text{
+    font-weight: 700;
+    font-size: 64px;
+}
+.txt1{
+    color:#1f971f;
+}
+.txt2{
+    color:#6d3232;
+}
+.txt3{
+    font-weight: 700;
+    font-size:32px;
+    display: flex;
+}
+.txt3 img{
+    height:40px;
+    width:40px;
+}
+.txt4{
+   color: rgba(133, 133, 133, 1);
+   font-weight: 400;
+   font-size:14px;
+   margin-top: 15px;
+}
+.rectangle4{
+    background-color: rgba(72, 163, 0, 0.1);
+    border-radius: 15px;
+    max-width: 500px;
+    height:30px;
+}
+.rectangle5{
+    border-radius: 15px;
+    width:0%;
+    max-width: 500px;
+    height: 100%;
+    background-color: rgba(72, 163, 0, 1);
+    color: rgba(238, 255, 224, 1);
+    font-size: 10px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    padding:10px;
+
+}
+.rectangle6{
+    display: flex;
+    align-items: center;
+}
+.rectangle7{
+    color:rgba(255, 81, 81, 1);
+    font-weight: 400;
+    font-size: 14px;
+}
+.rectangle10{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    gap:25px;
+    margin-top: 10px;
+}
+.owner{
+    color:rgba(133, 133, 133, 1);
+    font-size: 10px;
+    font-weight: 500;
+}
+.txt6{
+    color:rgba(0, 0, 0, 1);
+    font-size: 16px;
+    font-weight:700;
+}
+.goalContainer{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 17px;
+    height:82px;
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+
+}
+.customCheckbox{
+    border: 1px solid #61481C4D;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    margin-left: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.goal_input::placeholder{
+    color:#D9D9D9;
+}
+.goal_input{
+    border:none;
+    margin-left: 22px;
+    font-family: inherit;
+    font-size: 16px;
+    outline: none;
+    width:100%;
+    height: 100%;
+    font-weight: 500;
+}
+.hide{
+    display: none;
+}
+.hero{
+    display: none;
+}
